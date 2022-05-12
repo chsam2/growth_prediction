@@ -27,7 +27,7 @@ public class DoctorDAO {
     }
 
     public static int login(String doctor_id, String doctor_pw) {
-        String SQL = "SELECT pw FROM doctor WHERE doctor_id = ?";
+        String SQL = "SELECT doctor_pw FROM doctor WHERE doctor_id = ?";
         try {
             Connection conn = DatabaseUtil.getConnection();
             PreparedStatement pstmt = conn.prepareStatement(SQL);

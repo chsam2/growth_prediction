@@ -31,11 +31,11 @@
 			return ;
 		}
 	}
-	fetch("/login", {
-		method : "POST",
-		body : formData
-	})
-	.then((response)=>response.json)
-	.catch(console.log("error"));
+	// fetch("/login", {
+	// 	method : "POST",
+	// 	body : formData
+	// })
+	// .then((response)=>response.json)
+	// .catch(console.log("error"));
 	
 }
