@@ -18,14 +18,7 @@
 </head>
 <body>
 
-<%--
-	String doctor_id = (String)session.getAttribute("doctor_id");
-	
-	if (doctor_id == null){
-		response.sendRedirect("index.jsp");
-	}
 
---%>
 <%! %>
 <header>
     <%@ include file = "header.jsp"%>

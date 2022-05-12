@@ -25,4 +25,10 @@ public class LoginController {
 
         return "redirect:/";
     }
+
+    @RequestMapping("/logout")
+    public String logout() {
+
+        return "index";
+    }
 }

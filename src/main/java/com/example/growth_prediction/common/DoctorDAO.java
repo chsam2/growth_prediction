@@ -47,4 +47,8 @@ public class DoctorDAO {
         }
         return -2;// DB오류
     }
+
+    public void logout() {
+
+    }
 }
